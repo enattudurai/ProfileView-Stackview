@@ -15,6 +15,8 @@
 		03157887221FB1240063666A /* ProfileViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03157886221FB1240063666A /* ProfileViewTests.swift */; };
 		03157892221FB1240063666A /* ProfileViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03157891221FB1240063666A /* ProfileViewUITests.swift */; };
 		031578A0221FB1770063666A /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0315789F221FB1770063666A /* headerView.xib */; };
+		03A8D74E22200564008E28AA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8D74D22200564008E28AA /* ProfileViewController.swift */; };
+		03A8D75022200FEC008E28AA /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8D74F22200FEC008E28AA /* ProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		03157891221FB1240063666A /* ProfileViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewUITests.swift; sourceTree = "<group>"; };
 		03157893221FB1240063666A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0315789F221FB1770063666A /* headerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headerView.xib; sourceTree = "<group>"; };
+		03A8D74D22200564008E28AA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		03A8D74F22200FEC008E28AA /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0315787A221FB1230063666A /* LaunchScreen.storyboard */,
 				0315787D221FB1240063666A /* Info.plist */,
 				0315789F221FB1770063666A /* headerView.xib */,
+				03A8D74D22200564008E28AA /* ProfileViewController.swift */,
+				03A8D74F22200FEC008E28AA /* ProfileImageView.swift */,
 			);
 			path = ProfileView;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A8D75022200FEC008E28AA /* ProfileImageView.swift in Sources */,
+				03A8D74E22200564008E28AA /* ProfileViewController.swift in Sources */,
 				03157874221FB1220063666A /* ViewController.swift in Sources */,
 				03157872221FB1220063666A /* AppDelegate.swift in Sources */,
 			);
